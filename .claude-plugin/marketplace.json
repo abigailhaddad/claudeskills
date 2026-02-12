@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "present-of-coding",
-      "source": ".",
+      "source": "./",
       "description": "Brand identity, writing voice, and starter commands for The Present of Coding. Includes skills for brand guidelines and commands for writing blog posts, building websites, creating data sites, and making slide decks.",
       "version": "1.0.0",
       "author": {
