@@ -1,0 +1,25 @@
+{
+  "name": "present-of-coding",
+  "owner": {
+    "name": "Abigail Haddad"
+  },
+  "metadata": {
+    "description": "Brand identity, writing voice, and starter commands for The Present of Coding"
+  },
+  "plugins": [
+    {
+      "name": "present-of-coding",
+      "source": ".",
+      "description": "Brand identity, writing voice, and starter commands for The Present of Coding. Includes skills for brand guidelines and commands for writing blog posts, building websites, creating data sites, and making slide decks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Abigail Haddad"
+      },
+      "homepage": "https://github.com/abigailhaddad/claudeskills",
+      "repository": "https://github.com/abigailhaddad/claudeskills",
+      "license": "MIT",
+      "keywords": ["brand", "writing", "website", "data-visualization", "slides", "present-of-coding"],
+      "category": "productivity"
+    }
+  ]
+}
