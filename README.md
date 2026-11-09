@@ -19,17 +19,17 @@ Each command asks questions first before generating anything, so you get somethi
 
 ## Installation
 
-Add this plugin to your Claude Code setup:
+Install from this repository's plugin marketplace:
 
 ```bash
-claude plugin add https://github.com/abigailhaddad/claudeskills
+/plugin install present-of-coding --marketplace abigailhaddad/claudeskills
 ```
 
-Or clone it and point Claude Code at the directory:
+Or clone it and point Claude Code at the plugin directory:
 
 ```bash
 git clone https://github.com/abigailhaddad/claudeskills.git
-claude --plugin-dir ./claudeskills
+claude --plugin-dir ./claudeskills/plugins/present-of-coding
 ```
 
 ## Structure
@@ -37,14 +37,19 @@ claude --plugin-dir ./claudeskills
 ```
 claudeskills/
 ├── .claude-plugin/
-│   └── plugin.json              # Plugin manifest
-├── skills/
-│   └── present-of-coding-brand/
-│       └── SKILL.md             # Full brand identity skill
-├── commands/
-│   ├── write-blog-post.md       # /write-blog-post
-│   ├── make-website.md          # /make-website
-│   ├── make-data-site.md        # /make-data-site
-│   └── make-slides.md           # /make-slides
+│   └── marketplace.json         # Marketplace manifest
+├── plugins/
+│   └── present-of-coding/
+│       ├── .claude-plugin/
+│       │   └── plugin.json      # Plugin manifest
+│       ├── skills/
+│       │   └── present-of-coding-brand/
+│       │       └── SKILL.md     # Full brand identity skill
+│       └── commands/
+│           ├── hello.md             # /hello
+│           ├── write-blog-post.md   # /write-blog-post
+│           ├── make-website.md      # /make-website
+│           ├── make-data-site.md    # /make-data-site
+│           └── make-slides.md       # /make-slides
 └── README.md
 ```
